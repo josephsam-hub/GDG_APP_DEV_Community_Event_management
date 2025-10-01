@@ -22,7 +22,7 @@ The Event Management App is a Flutter application designed to streamline the pro
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/aliasar1/Event-Booking-App.git
+   git clone https://github.com/josephsam-hub/GDG_APP_DEV_Community_Event_management
    cd event-management-app
    ```
 
