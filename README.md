@@ -32,18 +32,9 @@ The Event Management App is a Flutter application designed to streamline the pro
    ```
 
 3. **Set up Firebase**:
-   - Create a Firebase project from the [Firebase Console](https://console.firebase.google.com/).
-   - Add your Android and iOS app to the Firebase project.
-   - Download the `google-services.json` file for Android and `GoogleService-Info.plist` for iOS.
-   - Place these files in the respective directories:
-     - `android/app/` for `google-services.json`
-     - `ios/Runner/` for `GoogleService-Info.plist`
-   - Enable Firebase Authentication, Firestore, and Firebase Storage in your Firebase project.
 
 4. **Configure the app**:
-   - Update the necessary Firebase configurations in your Flutter app.
-   - Ensure your Firebase project has appropriate rules set up for Firestore and Firebase Storage.
-
+ 
 5. **Run the app**:
    ```bash
    flutter run
@@ -63,11 +54,3 @@ The Event Management App is a Flutter application designed to streamline the pro
 2. **Receive QR Code**: After registration, receive a unique QR code that will be used for check-in on the event day.
 3. **Attend Event**: Present the QR code at the event for scanning by the organizer.
 
-## Contributing
-
-We welcome contributions from the community. Please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch for your feature or bugfix.
-3. Commit your changes and push them to your fork.
-4. Open a pull request with a detailed description of your changes.
